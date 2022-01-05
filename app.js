@@ -10,7 +10,7 @@ app.use(express.static('public'));
 // Rutas
 app.use('/', mainRoute);
 
-//Server MSG
+//Server
 app.listen(port, ()=>{
     console.log('Servidor funcionando en el puerto : '+port);
 });
